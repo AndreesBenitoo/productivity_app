@@ -6,9 +6,9 @@ name = "pypi"
 [packages]
 django = "<4.3,>=4.2"
 djangorestframework = "*"
-djangorestframework-simplejwt = "*"
 django-cors-headers = "*"
 python-dotenv = "*"
+djangorestframework-simplejwt = "*"
 
 [dev-packages]
 black = "*"
