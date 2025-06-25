@@ -1,0 +1,38 @@
+name: productivity_app_frontend
+description: "Flutter MVP para app de productividad conectada a backend Django REST."
+
+publish_to: 'none' # no se publicará en pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.8.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI básica
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.5.1     # Gestión de estado
+
+  # Conexión HTTP
+  dio: ^5.4.1                   # Cliente HTTP + interceptores
+
+  # Calendario
+  table_calendar: ^3.1.0        # Vista de calendario
+
+  # Gráficos para vista de Áreas
+  fl_chart: ^0.68.0
+
+  # Carga de variables de entorno (.env)
+  flutter_dotenv: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
