@@ -1,0 +1,23 @@
+# Python
+**/__pycache__/
+**/*.py[cod]
+.env
+.venv/
+Pipfile.lock
+
+# Django
+*.sqlite3
+media/
+static/
+
+# Flutter / Dart
+.dart_tool/
+.idea/
+.packages
+build/
+.flutter-plugins*
+pubspec.lock
+
+# OS
+.DS_Store
+Thumbs.db
